@@ -1,18 +1,91 @@
-You can run the PHP stuff with:
-# php artisan serve 
-from the root directory of this project.
+Fork this repository and create your own branch which you will commit once finished.
 
-You´ll find three routes for kind of API endpoints:
+Make the JavaScripts tests work:
 
-http://127.0.0.1:8000/s1
+# npm test
 
-http://127.0.0.1:8000/s2
+Create an HTML flyout with 3 levels with CSS only. Use Tailwind to make the layout look nice.
 
-http://127.0.0.1:8000/s3
 
-Each route delivers a different result that needs to be handled with your Vue component.
+Menü
+|
+|- Ebene 1A
+|  |- Ebene 2A
+|  |  |- Ebene 3A
+|  |  |- Ebene 3B
+|  |- Ebene 2B
+|     |- Ebene 3C
+|     |- Ebene 3D
+|
+|- Ebene 1B
+|  |- Ebene 2C
+|  |  |- Ebene 3E
+|  |- Ebene 2D
+|     |- Ebene 3F
+|     |- Ebene 3G
+|
+|- Ebene 1C
+|- Ebene 2E
+|  |- Ebene 3H
+|- Ebene 2F
+|- Ebene 3I
 
-Task: 
 
-List all data from the backend in an user-friendly and self-explaining manner. Make the data editable. Allow the user to delete and add rows (key/value pairs and key/values pairs). Use VueJS 2.x. Bootstrap-Vue might be of help for you. Figure it out.   
-
+|
+|-+-------+
+| |       |
+| |       |
+| |       |
+| +-------+
+|  |-+-------+
+|  | |       |
+|  | |       |
+|  | |       |
+|  | +-------+
+|  |  |-+-------+
+|  |  | |       |
+|  |  | |       |
+|  |  | |       |
+|  |  | +-------+
+|  |  |-+-------+
+|  |    |       |
+|  |    |       |
+|  |    |       |
+|  |    +-------+
+|
+|-+-------+
+| |       |
+| |       |
+| |       |
+| +-------+
+|  |-+-------+
+|  | |       |
+|  | |       |
+|  | |       |
+|  | +-------+
+|  |-+-------+
+|    |       |
+|    |       |
+|    |       |
+|    +-------+
+|    |-+-------+
+|    | |       |
+|    | |       |
+|    | |       |
+|    | +-------+
+|
+|-+-------+
+|       |
+|       |
+|       |
++-------+
+|-+-------+
+| |       |
+| |       |
+| |       |
+| +-------+
+|-+-------+
+|       |
+|       |
+|       |
++-------+
